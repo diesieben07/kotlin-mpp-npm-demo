@@ -1,1 +1,1 @@
-export de from "kotlin-mpp-npm-demo-mpp";
+exports = require("kotlin-mpp-npm-demo-mpp");
