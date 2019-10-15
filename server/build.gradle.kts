@@ -20,3 +20,7 @@ tasks.withType<KotlinCompile> {
     kotlinOptions.javaParameters = true
     kotlinOptions.freeCompilerArgs += "-Xjvm-default=enable"
 }
+
+application {
+    mainClassName = "de.takeweiland.kotlinmppnpmdemo.ServerMainKt"
+}

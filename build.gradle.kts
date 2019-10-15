@@ -3,5 +3,7 @@ plugins {
     kotlin("jvm") version "1.3.50" apply false
 }
 
-group = "de.takeweiland.kotlin-mpp-npm-demo"
-version = "0.0.1"
+allprojects {
+    group = "de.takeweiland.kotlin-mpp-npm-demo"
+    version = "0.0.1"
+}
