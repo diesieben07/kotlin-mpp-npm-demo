@@ -1,4 +1,4 @@
-declare module "kotlin-mpp-npm-demo-mpp" {
+declare module "kotlin-mpp-npm-demo-ts" {
 
     namespace de.takeweiland.kotlinmppnpmdemo.common {
 

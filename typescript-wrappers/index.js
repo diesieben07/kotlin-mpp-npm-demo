@@ -1,0 +1,1 @@
+export de from "kotlin-mpp-npm-demo-mpp";
