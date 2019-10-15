@@ -11,7 +11,9 @@ kotlin {
     js {
         useCommonJs()
         nodejs {
-            runTask {  }
+            runTask {
+
+            }
         }
     }
 
