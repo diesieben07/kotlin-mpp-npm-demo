@@ -1,1 +1,1 @@
-exports = require("kotlin-mpp-npm-demo-mpp");
+exports.default = require("kotlin-mpp-npm-demo-mpp");
