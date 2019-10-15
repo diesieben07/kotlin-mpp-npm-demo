@@ -2,7 +2,6 @@
   "private": true,
   "workspaces": [
     "build/js/packages/*",
-    "build/js/packages_imported/*/*",
-    "app-react"
+    "build/js/packages_imported/*/*"
   ]
 }
