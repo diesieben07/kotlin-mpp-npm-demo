@@ -1,5 +1,1 @@
-let de = require("kotlin-mpp-npm-demo-mpp");
-
-console.log("REQUIRED", de);
-
-module.exports = de.takeweiland.kotlinmppnpmdemo.common;
+module.exports = require("kotlin-mpp-npm-demo-mpp").de.takeweiland.kotlinmppnpmdemo.common;
