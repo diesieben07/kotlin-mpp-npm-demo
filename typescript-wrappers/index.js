@@ -1,1 +1,1 @@
-export default from "kotlin-mpp-npm-demo-mpp";
+exports = require("kotlin-mpp-npm-demo-mpp").de.takeweiland.kotlinmppnpmdemo.common;
