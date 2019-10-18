@@ -1,5 +1,6 @@
 plugins {
     kotlin("multiplatform")
+    id("kotlin-dce-js")
 }
 
 repositories {
@@ -35,4 +36,8 @@ kotlin {
             }
         }
     }
+}
+
+val runDceJsKotlin by tasks.existing(org.jetbrains.kotlin.gradle.dsl.KotlinJsDce::class) {
+    keep("kotlin-mpp-npm-demo-mpp.de.takeweiland.kotlinmppnpmdemo.common.commonFun")
 }

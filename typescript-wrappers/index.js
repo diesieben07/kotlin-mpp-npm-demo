@@ -1,0 +1,1 @@
+module.exports = require("kotlin-mpp-npm-demo-mpp").de.takeweiland.kotlinmppnpmdemo.common;

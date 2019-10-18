@@ -1,0 +1,7 @@
+{
+  "name": "kotlin-mpp-npm-demo-ts",
+  "version": "0.0.1",
+  "dependencies": {
+    "kotlin-mpp-npm-demo-mpp": "0.0.1"
+  }
+}
